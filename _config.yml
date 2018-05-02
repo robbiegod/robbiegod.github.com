@@ -4,3 +4,7 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 highlighter: rouge
 encoding: bom|utf-8
+flickr:
+  screen_name: RobbieGoD
+  api_key: c3a20a2b553591515e0f24f621073fff
+  api_secret: bffcd153f1232cef
