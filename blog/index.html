@@ -6,13 +6,14 @@ title: Robert Fletcher's Blog
 	<ul class="posts">
 
 		{% for post in site.posts %}
-			{% if page.tweet %}
+			<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+
+{% if page.tweet %}
 			<p>This is a tweet: </p>
 			<div class="my-tweet-class">
 				{{ page.tweet }}
 			</div>
-			{% else %}
-				<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-			{% endif %}
-		{% endfor %}
-	</ul>
+{% endif %}
+

@@ -21,9 +21,6 @@ tweetsert:
   embed: 
     excerpts: false
     theme: dark
-  category:
-    default: "tweets"
-    dir: "_tweets"
-  hashtags: true
+  hashtags: false
   properties:
     tweet: $
