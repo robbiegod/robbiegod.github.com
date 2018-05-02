@@ -23,5 +23,5 @@ tweetsert:
     theme: dark
   category:
     default: "tweets"
-    dir: "tweets"
+    dir: "_tweets"
   hashtags: true
