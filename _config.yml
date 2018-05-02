@@ -17,7 +17,7 @@ tweetsert:
   timeline:
     handle: 'robbiegod316'
     access_token: "41165964-iluVDEI4N2Foyn7qFJ52bXAowUU2yuTT9v8MQTKui"
-    limit: 5
+    limit: 20
   embed: 
     excerpts: false
     theme: dark
