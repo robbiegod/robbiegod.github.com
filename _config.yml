@@ -25,3 +25,5 @@ tweetsert:
     default: "tweets"
     dir: "_tweets"
   hashtags: true
+  properties:
+    tweet: $
