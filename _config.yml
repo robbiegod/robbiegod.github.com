@@ -7,10 +7,6 @@ encoding: bom|utf-8
 plugins:
   - flickr
   - jekyll-tweetsert
-flickr:
-  screen_name: ijoer316
-  api_key: c3a20a2b553591515e0f24f621073fff
-  api_secret: bffcd153f1232cef
 
 tweetsert:
   enabled: true
