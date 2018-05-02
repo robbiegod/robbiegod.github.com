@@ -1,7 +1,7 @@
 name: robbiegod
 title: robbiegod.github.io
 markdown: kramdown
-permalink: /category/:year/:month/:day/:title
+# permalink: /blog/:year/:month/:day/:title
 highlighter: rouge
 encoding: bom|utf-8
 plugins:
