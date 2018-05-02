@@ -1,27 +1,76 @@
 name: robbiegod
 title: robbiegod.github.io
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# permalink: /blog/:year/:month/:day/:title
 highlighter: rouge
 encoding: bom|utf-8
 plugins:
   - flickr
   - jekyll-tweetsert
-flickr:
-  screen_name: ijoer316
-  api_key: c3a20a2b553591515e0f24f621073fff
-  api_secret: bffcd153f1232cef
 
 tweetsert:
   enabled: true
-  layout: 'default'
+  layout: "post"
+  debug: false
+
+  title:
+    prefix: "[Tweet] "
+    words:  9
+    suffix: " ..."
+
+  properties:
+    is_tweet: true
+    tweet_html: $
+    share: false
+    comments: true
+
   timeline:
     handle: 'RobbieGoD316'
+
     access_token: "41165964-iluVDEI4N2Foyn7qFJ52bXAowUU2yuTT9v8MQTKui"
-    limit: 20
-  embed: 
-    excerpts: false
-    theme: dark
-  hashtags: false
-  properties:
-    tweet: $
+    limit: 100
+
+    replies: false
+    retweets: true
+
+    #include:
+    #  - '#blogimport'
+
+    exclude:
+
+    no_newer: true
+    no_older: false
+
+  embed:
+    excerpts: true
+    theme: "dark"
+    link_color: "#80FF80"
+    omit_script: false
+    prefix: '<i>I tweeted this on {{date}}</i>'
+    suffix: '<p>Click <a href="{{url}}">here</a> to comment.</p>'
+
+  category:
+    default: "tweets"
+    dir: ""
+
+    layout: "category_index"
+    title:
+      prefix: "Posts in the &laquo;"
+      suffix: "&raquo; category"
+
+  tags:
+    default: "tweet"
+    dir: "tag"
+
+    layout: "tag_index"
+    title:
+      prefix: "Posts tagged &ldquo;"
+      suffix: "&rdquo;"
+
+    hashtags: true
+    ignore:
+
+    auto:
+      keepkey:
+      cryptocurrency:
+      ethereum:
