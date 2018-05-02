@@ -2,7 +2,7 @@
 layout: post
 title: "Robert Fletcher on Github Pages using Jekyll"
 date: 2018-04-30
-categories: personal blog
+categories: [personal, blog]
 tags: first site jekyll github-pages blog markdown
 ---
 
