@@ -8,6 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    api_cache (0.3.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -29,7 +30,6 @@ GEM
     ffi (1.9.23-x64-mingw32)
     flickr (1.0.2)
       xml-simple (>= 1.0.7)
-    flickraw (0.9.9)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
     github-pages (183)
@@ -189,6 +189,10 @@ GEM
       jekyll-seo-tag (~> 2.0)
     jekyll-titles-from-headings (0.5.1)
       jekyll (~> 3.3)
+    jekyll-tweetsert (1.1.1)
+      api_cache (~> 0.3)
+      jekyll (~> 3.0)
+      moneta (~> 1.0)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
     jemoji (0.9.0)
@@ -209,6 +213,7 @@ GEM
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
+    moneta (1.0.0)
     multipart-post (2.0.0)
     nokogiri (1.8.2-x64-mingw32)
       mini_portile2 (~> 2.3.0)
@@ -250,8 +255,8 @@ PLATFORMS
 
 DEPENDENCIES
   flickr
-  flickraw
   github-pages
+  jekyll-tweetsert
   wdm (~> 0.1.0)
 
 BUNDLED WITH

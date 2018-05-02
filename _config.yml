@@ -10,3 +10,18 @@ flickr:
   screen_name: ijoer316
   api_key: c3a20a2b553591515e0f24f621073fff
   api_secret: bffcd153f1232cef
+
+tweetsert:
+  enabled: true
+  layout: 'default'
+  timeline:
+    handle: 'robbiegod316'
+    access_token: "41165964-iluVDEI4N2Foyn7qFJ52bXAowUU2yuTT9v8MQTKui"
+    limit: 5
+  embed: 
+    excerpts: false
+    theme: dark
+  category:
+    default: "tweets"
+    dir: "tweets"
+  hashtags: true
