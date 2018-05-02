@@ -38,6 +38,15 @@
     {{ content }}
    </div>
 
+   <div class="tweets">
+      {% if page.tweet %}
+            <p>This is a tweet: </p>
+            <div class="my-tweet-class">
+              {{ page.tweet }}
+            </div>
+      {% endif %}
+      </div>
+
    <footer>
     <p class="lead">Follow me:</p>
     <ul>
