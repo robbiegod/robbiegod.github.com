@@ -1,5 +1,8 @@
 name: robbiegod
 title: robbiegod.github.io
+baseurl: ""
+twittername: robbiegod316
+githubusername: robbiegod
 markdown: kramdown
 # permalink: /blog/:year/:month/:day/:title
 highlighter: rouge
