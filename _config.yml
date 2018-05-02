@@ -4,7 +4,10 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 highlighter: rouge
 encoding: bom|utf-8
+plugins:
+  - FlickRaw
+  - indii-jekyll-flickr
 flickr:
-  screen_name: RobbieGoD
+  screen_name: ijoer316
   api_key: c3a20a2b553591515e0f24f621073fff
   api_secret: bffcd153f1232cef
