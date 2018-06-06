@@ -2,10 +2,11 @@ $whitesmoke: #f5f5f5;
 $base-padding: 25px 0;
 
 img.profile {
-  width:125px;
+  width:100%;
   height:auto;
   margin:0;
   padding:0;
+  border-radius:50%;
 }
 
 footer {
