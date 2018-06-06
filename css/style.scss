@@ -1,6 +1,13 @@
 $whitesmoke: #f5f5f5;
 $base-padding: 25px 0;
 
+img.profile {
+  width:125px;
+  height:auto;
+  margin:0;
+  padding:0;
+}
+
 footer {
   background-color: $whitesmoke;
   padding: $base-padding;
